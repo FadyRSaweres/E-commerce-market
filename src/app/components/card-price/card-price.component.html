@@ -1,0 +1,13 @@
+<div
+    class="h-[300px] p-3 rounded-md hover:shadow-xl text-center shadow-lg overflow-hidden relative flex flex-col justify-center items-center">
+    <img src="../../../assets/vegetables.jpg" class="h-[60%]" />
+    <div class="title font-bold text-xl">Tomatos</div>
+    <div class="sub-title text-sm">Tomatos are very fresh today</div>
+    <rating-stars [ratingNum]='4'></rating-stars>
+    <button (click)="handleAddToCart({name: 'Tomatos', price: 755})"
+        class="bg-primary hover:bg-primary-light text-white font-bold py-1 px-2 rounded-full flex gap-4 mt-2">
+        Add to Cart
+        <lucide-angular name="shopping-cart" class="my-icon size-6" />
+
+    </button>
+</div>

@@ -1,0 +1,60 @@
+<div class="Home-component">
+    <section class="hot-deals mt-4 text-center p-4">
+        <p class="text-3xl text-gray-600">Hot Deals</p>
+        <p class="text-sm text-gray-600 ">Ther is many hot deals today here you are...</p>
+        <div class="grid grid-cols-5 gap-3">
+            <card-price (dataTransfer)="receiveDate($event)"></card-price>
+            <card-price (dataTransfer)="receiveDate($event)"></card-price>
+            <card-price (dataTransfer)="receiveDate($event)"></card-price>
+            <card-price (dataTransfer)="receiveDate($event)"></card-price>
+            <card-price (dataTransfer)="receiveDate($event)"></card-price>
+        </div>
+    </section>
+    <section class="featured-categories rounded-md p-3">
+        <header class="text-center">
+            Featured categories
+        </header>
+        <div class="grid grid-cols-12 gap-4">
+            <div class="bg-red-50 min-h-3 rounded-md flex flex-col gap-2 p-3 justify-center items-center">
+                <img src="../../../assets/vegetables.jpg" />
+                <p class="text-center text-xs">Vegitables</p>
+            </div>
+            <div class="bg-blue-50 min-h-3 rounded-md flex flex-col gap-2 p-3">
+                <img src="../../../assets/vegetables.jpg" />
+                <p class="text-center text-xs">Vegitables</p>
+            </div>
+            <div class="bg-green-50 min-h-3 rounded-md flex flex-col gap-2 p-3">
+                <img src="../../../assets/vegetables.jpg" />
+                <p class="text-center text-xs">Vegitables</p>
+            </div>
+            <div class="bg-purple-50 min-h-3 rounded-md flex flex-col gap-2 p-3">
+                <img src="../../../assets/vegetables.jpg" />
+                <p class="text-center text-xs">Vegitables</p>
+            </div>
+            <div class="bg-orange-50 min-h-3 rounded-md flex flex-col gap-2 p-3">
+                <img src="../../../assets/vegetables.jpg" />
+                <p class="text-center text-xs">Vegitables</p>
+            </div>
+            <div class="bg-amber-50 min-h-3 rounded-md flex flex-col gap-2 p-3">
+                <img src="../../../assets/vegetables.jpg" />
+                <p class="text-center text-xs">Vegitables</p>
+            </div>
+            <div class="bg-slate-50 min-h-3 rounded-md flex flex-col gap-2 p-3">
+                <img src="../../../assets/vegetables.jpg" />
+                <p class="text-center text-xs">Vegitables</p>
+            </div>
+            <div class="bg-rose-50 min-h-3 rounded-md flex flex-col gap-2 p-3">
+                <img src="../../../assets/vegetables.jpg" />
+                <p class="text-center text-xs">Vegitables</p>
+            </div>
+            <div class="bg-pink-50 min-h-3 rounded-md flex flex-col gap-2 p-3">
+                <img src="../../../assets/vegetables.jpg" />
+                <p class="text-center text-xs">Vegitables</p>
+            </div>
+            <div class="bg-yellow-50 min-h-3 rounded-md flex flex-col gap-2 p-3">
+                <img src="../../../assets/vegetables.jpg" />
+                <p class="text-center text-xs">Vegitables</p>
+            </div>
+        </div>
+    </section>
+</div>
